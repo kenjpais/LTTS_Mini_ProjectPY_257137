@@ -27,5 +27,12 @@ For quering or order placement specification use cases, etc, the uses and requir
  
 Formating the data so that the data can be processed easily and only useful data is used to train the model.
 
+### Using cosine similiarity 
+To match closest question to user input
+
+### Application
+Using the command line, chatbot can engage in conversation
+
+
  
  
