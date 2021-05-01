@@ -1,1 +1,1 @@
-pip install Keras, tensorflow numpy
+pip install Keras, tensorflow, numpy
