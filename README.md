@@ -18,20 +18,24 @@ For quering or order placement specification use cases, etc, the uses and requir
  # Building
  
  ## Preprocessing
+To implement the chatbot, we will be using Keras, which is a Deep Learning library, NLTK, which is a Natural Language Processing toolkit, and some helpful libraries
  
- ### Gathering Conversational Training data
- 
- For every machine learning program, it requires a data set to train it, for our purposes, a .csv file is used containing conversational data to be trained
- 
+All chatbots come under the NLP (Natural Language Processing) concepts. NLP is composed of two things:
+
+NLU (Natural Language Understanding): The ability of machines to understand human language like English.
+
+NLG (Natural Language Generation): The ability of a machine to generate text similar to human written sentences.
+
  ### Cleaning and formatting data 
  
 Formating the data so that the data can be processed easily and only useful data is used to train the model.
 
-### Using cosine similiarity 
-To match closest question to user input
+The model cannot take the raw data. It has to go through a lot of pre-processing for the machine to easily understand. For textual data, there are many preprocessing techniques available. The first technique is tokenizing, in which we break the sentences into words.
+
+By observing the intents file, we can see that each tag contains a list of patterns and responses. We tokenize each pattern and add the words in a list. Also, we create a list of classes and documents to add all the intents associated with patterns.
 
 ### Application
-Using the command line, chatbot can engage in conversation
+Using the GUI, chatbot can engage in conversation
 
 
  
