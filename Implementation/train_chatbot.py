@@ -1,3 +1,12 @@
+"""
+  @file test.py
+  @author Ken Jonathan Pais (SF ID:257137)
+  @brief
+  @version 1.0
+  @date 2021-05-01
+  @copyright Copyright (c) 2021
+"""
+
 import numpy as np
 from keras.models import Sequential
 from keras.layers import Dense, Activation, Dropout
