@@ -1,7 +1,17 @@
+"""
+  @file test.py
+  @author Ken Jonathan Pais (SF ID:257137)
+  @brief
+  @version 1.0
+  @date 2021-05-01
+  @copyright Copyright (c) 2021
+"""
+
+
 #Importing requirements 
 
 import pandas as pd
-import re
+import re                                           
 pd.set_option('display.max_colwidth', 200)
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity         #using cosine similiarity algorithm for matching questions
